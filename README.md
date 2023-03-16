@@ -226,3 +226,27 @@ Nested Dictionaries:
 A dictionary can contain a dictionary, this is called nested dictionaries.
 Access: straightforward with this syntax: print(myDict[“child2”][“name”])
 
+
+#####################################################################
+#####################################################################
+Module:
+Basically any file extension with this .py can be a module. 
+Module is similar to code library – a file contain set of functions you want to include in your application. 
+
+Variables in Module:
+Module can have functions, also variables of all types (arrays, dicts, sets, lists, objects)
+To access these variables, you must define a new variable and call the module name along with the variable.
+→  a = mymodule.person1[“age”]
+
+Rename: 
+Using keyword as to rename the module.
+
+
+#####################################################################
+#####################################################################
+
+Exceptional Handling
+The try block lets you test a block of code for errors
+The except block lets you handle the error. ** Java uses catch, Python uses except
+The else block lets you execute code when there is no error.
+The finally block lets you execute code, regardless of the result of the try- and except blocks.
