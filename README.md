@@ -1,4 +1,4 @@
-# DATA TYPES <span style="color:red"></span>
+<span style="color:red"># DATA TYPES</span>
 ### Example 1: Integers
 x = 10
 print(type(x))  # Output: <class 'int'>
