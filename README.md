@@ -11,6 +11,19 @@ print(type(name))  # Output: <class 'str'>
 numbers = [1, 2, 3, 4]
 print(type(numbers))  # Output: <class 'list'>
 
+# Example 4: Floats
+pi = 3.14
+print(type(pi))  # Output: <class 'float'>
+
+# Example 5: Booleans
+is_raining = True
+print(type(is_raining))  # Output: <class 'bool'>
+
+# Example 6: Tuples
+coordinates = (10, 20)
+print(type(coordinates))  # Output: <class 'tuple'>
+
+
 ---------------- CONDITION AND LOOPING ---------------
 # Example 1: if-else condition
 age = 18
@@ -29,6 +42,32 @@ count = 1
 while count <= 5:
     print(count)
     count += 1
+
+# Example 4: Nested if-else condition
+age = 18
+gender = "female"
+if age >= 18:
+    if gender == "male":
+        print("You can vote!")
+    else:
+        print("You are eligible to vote.")
+else:
+    print("Sorry, you are not old enough to vote.")
+
+# Example 5: while loop with else block
+count = 1
+while count <= 5:
+    print(count)
+    count += 1
+else:
+    print("Count is greater than 5.")
+
+# Example 6: for loop with continue statement
+numbers = [1, 2, 3, 4, 5]
+for num in numbers:
+    if num % 2 == 0:
+        continue
+    print(num)
 
 ------------------ CLASS: DOCUMENT ---------------
 # Example 1: Creating a Document class
